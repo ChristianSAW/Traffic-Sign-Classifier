@@ -1,0 +1,2 @@
+model_checkpoint_path: "lenet_with_dataprocessing_HISTEQ"
+all_model_checkpoint_paths: "lenet_with_dataprocessing_HISTEQ"
