@@ -4,3 +4,7 @@ data
 models
 *.swp
 *.p
+Saved_Models/model_2.*
+Saved_Models/model_2_config_2a*
+Saved_Models/model_2_config_2b*
+Saved_Models/model_2_config_2c*
