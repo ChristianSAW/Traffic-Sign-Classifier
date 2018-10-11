@@ -18,18 +18,18 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: notebook_images/Visualization_1.jpg "Visualization of Sample Training Image"
-[image2]: notebook_images/Visualization_2.jpg "Visualization of Sample Training Image from Each Class (43 Total)"
-[image3]: notebook_images/Training_Hist.jpg "Training Data Set Histogram of Class/Label Distribution"
-[image4]: notebook_images/Validation_Hist_1.jpg "Validation Data Set Histogram of Class/Label Distribution"
-[image5]: notebook_images/Testing_Hist.jpg "Test Data Set Histogram of Class/Label Distribution"
-[image6]: notebook_images/Preprocess_Visualization.jpg "Preprocessing of Images"
-[image7]: notebook_images/Brightness_Augmentation_Visualization.jpg "Brightness Augmentation of Image (And Preprocessing Applied After)"
-[image8]: notebook_images/Transformations_Visualization.jpg "Individual And Compound Transformations of Image"
-[image9]: notebook_images/new_image_Visualization_1.jpg "New Images To Be Tested (No Labels)"
-[image10]: notebook_images/new_image_Visualization_2.jpg "New Images To Be Tested (With Labels)"
-[image11]: notebook_images/new_image_predictions.jpg "Predicted Labels of New Images"
-[image12]: notebook_images/new_image_top_5.jpg "Top 5 Predictions for Each New Image"
+[image1]: notebook_images/Visualization_1.png "Visualization of Sample Training Image"
+[image2]: notebook_images/Visualization_2.png "Visualization of Sample Training Image from Each Class (43 Total)"
+[image3]: notebook_images/Training_Hist.png "Training Data Set Histogram of Class/Label Distribution"
+[image4]: notebook_images/Validation_Hist_1.png "Validation Data Set Histogram of Class/Label Distribution"
+[image5]: notebook_images/Testing_Hist.png "Test Data Set Histogram of Class/Label Distribution"
+[image6]: notebook_images/Preprocess_Visualization.png "Preprocessing of Images"
+[image7]: notebook_images/Brightness_Augmentation_Visualization.png "Brightness Augmentation of Image (And Preprocessing Applied After)"
+[image8]: notebook_images/Transformations_Visualization.png "Individual And Compound Transformations of Image"
+[image9]: notebook_images/new_image_Visualization_1.png "New Images To Be Tested (No Labels)"
+[image10]: notebook_images/new_image_Visualization_2.png "New Images To Be Tested (With Labels)"
+[image11]: notebook_images/new_image_predictions.png "Predicted Labels of New Images"
+[image12]: notebook_images/new_image_top_5.png "Top 5 Predictions for Each New Image"
 
 ---
 ### Writeup / README
