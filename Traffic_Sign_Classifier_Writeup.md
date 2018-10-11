@@ -18,18 +18,18 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./notebook_images/Visualization_1.jpg "Visualization of Sample Training Image"
-[image2]: ./notebook_images/Visualization_2.jpg "Visualization of Sample Training Image from Each Class (43 Total)"
-[image3]: ./notebook_images/Training_Hist.jpg "Training Data Set Histogram of Class/Label Distribution"
-[image4]: ./notebook_images/Validation_Hist_1.jpg "Validation Data Set Histogram of Class/Label Distribution"
-[image5]: ./notebook_images/Testing_Hist.jpg "Test Data Set Histogram of Class/Label Distribution"
-[image6]: ./notebook_images/Preprocess_Visualization.jpg "Preprocessing of Images"
-[image7]: ./notebook_images/Brightness_Augmentation_Visualization.jpg "Brightness Augmentation of Image (And Preprocessing Applied After)"
-[image8]: ./notebook_images/Transformations_Visualization.jpg "Individual And Compound Transformations of Image"
-[image9]: ./notebook_images/new_image_Visualization_1.jpg "New Images To Be Tested (No Labels)"
-[image10]: ./notebook_images/new_image_Visualization_2.jpg "New Images To Be Tested (With Labels)"
-[image11]: ./notebook_images/new_image_predictions.jpg "Predicted Labels of New Images"
-[image12]: ./notebook_images/new_image_top_5.jpg "Top 5 Predictions for Each New Image"
+[image1]: notebook_images/Visualization_1.jpg "Visualization of Sample Training Image"
+[image2]: notebook_images/Visualization_2.jpg "Visualization of Sample Training Image from Each Class (43 Total)"
+[image3]: notebook_images/Training_Hist.jpg "Training Data Set Histogram of Class/Label Distribution"
+[image4]: notebook_images/Validation_Hist_1.jpg "Validation Data Set Histogram of Class/Label Distribution"
+[image5]: notebook_images/Testing_Hist.jpg "Test Data Set Histogram of Class/Label Distribution"
+[image6]: notebook_images/Preprocess_Visualization.jpg "Preprocessing of Images"
+[image7]: notebook_images/Brightness_Augmentation_Visualization.jpg "Brightness Augmentation of Image (And Preprocessing Applied After)"
+[image8]: notebook_images/Transformations_Visualization.jpg "Individual And Compound Transformations of Image"
+[image9]: notebook_images/new_image_Visualization_1.jpg "New Images To Be Tested (No Labels)"
+[image10]: notebook_images/new_image_Visualization_2.jpg "New Images To Be Tested (With Labels)"
+[image11]: notebook_images/new_image_predictions.jpg "Predicted Labels of New Images"
+[image12]: notebook_images/new_image_top_5.jpg "Top 5 Predictions for Each New Image"
 
 ---
 ### Writeup / README
@@ -380,8 +380,8 @@ To accomidate the additional data processing, I increased the model size by addi
 **First Look at Model 2:**
 Here I added the 1x1x3 convolutinal layer at the beginning (as I had intended) so that the nerual net could chose the best channels for the input images rather than deciding that myself with some preprocessing. I tested the following: 
 1. EPOCH
-2. # of filters for convolutional layers 1-3
-3. # of outputs for fully connected layers 4-6
+2. number of filters for convolutional layers 1-3
+3. number of outputs for fully connected layers 4-6
 4. What data processing to be applied to the trainiing data set?
 5. Transformation parameters: rotation range, translation range, shearing range 
 6. Use of CLAHE or not
@@ -423,8 +423,8 @@ Because model 2 did not seem large enough to accomidate for transformations of t
 
 The most sucessful run of this was with the configuration seen in the code. For essentially every configuration I tried thereafter I couldn't get the validation accuracy over 8% with a few exceptions. I tuned the following:
 
-1. # of filters for convolutional layers 1-6
-2. # of outputs for fully connected layers 7-9
+1. number of filters for convolutional layers 1-6
+2. number of outputs for fully connected layers 7-9
 3. Transformation parameters: rotation range, translation range, shearing range 
 4. Convolutional padding, SAME or VALID.
 
