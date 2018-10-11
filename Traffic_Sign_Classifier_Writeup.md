@@ -447,7 +447,7 @@ I used 12 images (2 of which were not within the class lables).
 
 Here are the results of the prediction (Note the image numbers are not the same as the previous image):
 
-![alt text][Predicted Labels of New Images] 
+![Predicted Labels of New Images][image11] 
 
 Of the 10 signs that the model should be able to classify, the neural net correctly classified 8 of them. It incorrectly classified 2 signs: 
 
